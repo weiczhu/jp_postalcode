@@ -11,4 +11,13 @@ import scrapy
 class JpPostalcodeItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    # pass
+
+    ken = scrapy.Field()
+    ken_jp = scrapy.Field()
+    city = scrapy.Field()
+    city_jp = scrapy.Field()
+    area = scrapy.Field()
+    area_jp = scrapy.Field()
+    zipcode = scrapy.Field()
+
